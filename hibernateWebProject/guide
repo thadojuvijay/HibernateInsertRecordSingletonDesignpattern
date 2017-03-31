@@ -1,0 +1,11 @@
+first create dynamic webproject and add jar files hibernate required,servlet-api.jar,ojdbc6.jar
+and database connection with eclipse
+and come from database
+hibernate configuration.xml
+entity class
+configure entity class into xml
+and we will create InsertEmployeedata class for inserting record
+we dont need to call configure() and buildsessionFctory() every time so we need to write another class...by using singleton design pattern.
+name HibernateUtility
+and next create servlet for capture the data  from the html file. 
+and create html file.
